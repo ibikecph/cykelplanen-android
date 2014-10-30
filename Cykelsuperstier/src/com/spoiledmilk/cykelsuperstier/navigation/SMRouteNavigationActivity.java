@@ -153,7 +153,6 @@ public class SMRouteNavigationActivity extends com.spoiledmilk.ibikecph.navigati
 		return new InstructionsPagerAdapter(getSupportFragmentManager(), mapFragment, this);
 	}
 
-	@Override
 	protected int getPullHandeBackground() {
 		return Color.WHITE;
 	}

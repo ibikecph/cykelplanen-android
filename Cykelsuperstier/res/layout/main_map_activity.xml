@@ -354,7 +354,7 @@
                 android:textColor="@color/White" />
         </RelativeLayout>
 
-        <Button
+        <ImageButton
             android:id="@+id/btnSearch"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
