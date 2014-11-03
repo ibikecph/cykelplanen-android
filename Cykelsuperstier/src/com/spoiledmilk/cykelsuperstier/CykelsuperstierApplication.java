@@ -6,9 +6,17 @@
 package com.spoiledmilk.cykelsuperstier;
 
 import com.spoiledmilk.ibikecph.IbikeApplication;
+import com.spoiledmilk.ibikecph.util.Config;
 
 public class CykelsuperstierApplication extends IbikeApplication {
 
 	public static final int ALARM_REQUEST_CODE = 202837;
+	
+	@Override
+	public void onCreate() { 
+		super.onCreate();
+		Config.GREEN_ROUTES_ENABLED = false; 
+		Config.EXTENDED_PULL_TOUCH = false;
+	}
 
 }
